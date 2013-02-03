@@ -18,7 +18,7 @@ logger = logging.getLogger('configs')
 
 
 def make_backup(path):
-    logger.info('Creating backup for %s' % (path_in_home, ))
+    logger.info('Creating backup for %s' % (path, ))
     target = '%s-%s' % (path, datetime.datetime.now().strftime('%Y%m%d_%H%M'))
     logger.info('Moving "%s" to "%s"' % (path, target))
     shutil.move(path, target)
@@ -62,6 +62,11 @@ def main(path=None, linking_function=link_home_to_local):
     for (dirpath, dirnames, filenames) in os.walk(path):
         logger.debug(
             'Processing: %s - %s - %s' % (dirpath, dirnames, filenames))
+
+        if '.git' in dirpath:
+            logger.info('Skipping git directory: %s' % (dirpath, ))
+            continue
+
         for filename in filenames:
             if filename in EXCLUDES:
                 logger.info(
