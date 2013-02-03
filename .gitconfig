@@ -1,0 +1,8 @@
+[user]
+	name = Niko Wenselowski
+	email = der@nik0.de
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto

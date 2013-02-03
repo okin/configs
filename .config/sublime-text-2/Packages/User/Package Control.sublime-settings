@@ -1,0 +1,23 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Git",
+		"Package Control",
+		"Python Coverage",
+		"Solarized Color Scheme",
+		"SublimeCodeIntel",
+		"SublimeJEDI",
+		"SublimeLinter",
+		"Theme - Night",
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
+	],
+	"repositories":
+	[
+		"https://github.com/SublimeLinter/SublimeLinter.git",
+		"https://github.com/chriskempson/tomorrow-theme.git",
+		"https://github.com/deplorableword/textmate-solarized.git",
+		"https://github.com/svaiter/SublimeJEDI"
+	]
+}
