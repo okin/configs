@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
 	"font_face": "Source Code Pro",
+	"font_size": 10.5,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -12,5 +13,6 @@
 	],
 	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"bold_folder_labels": true
 }
