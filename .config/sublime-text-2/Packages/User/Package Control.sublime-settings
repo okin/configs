@@ -3,9 +3,9 @@
 	"installed_packages":
 	[
 		"Git",
+		"GitGutter",
 		"Package Control",
 		"Python Coverage",
-		"Solarized Color Scheme",
 		"SublimeCodeIntel",
 		"SublimeJEDI",
 		"SublimeLinter",
