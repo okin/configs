@@ -6,9 +6,11 @@ alias lt='ls -trhl'
 alias filetree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/ /' -e 's/-/|/'"
 
 # Git specific settings
+# gs is ghostscript on some systems
 alias gss='git status'
 alias gcm='git commit -m'
 alias gl='git log'
+alias gd='git diff'
 
 # SSH settings
 # nerdnode
