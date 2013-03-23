@@ -10,3 +10,8 @@ alias gss='git status'
 alias gcm='git commit -m'
 alias gl='git log'
 
+# SSH settings
+# nerdnode
+alias nerdnode="ssh nerdnode@monoceres.uberspace.de"
+# planet python
+alias planetpy="ssh planetpy@auriga.uberspace.de"
