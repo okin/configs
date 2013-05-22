@@ -22,7 +22,9 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 # Start Dropbox after logging in.
-(sleep 10 && ~/.dropbox-dist/dropboxd & disown)
+if [ -f "$HOME/.dropbox-dist/dropboxd" ]; then
+    (sleep 10 && $HOME/.dropbox-dist/dropboxd) &
+fi
 
 #Setting an environment var used by virtualenvwrapper
 export WORKON_HOME=~/.virtualenvs
