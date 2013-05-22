@@ -29,16 +29,10 @@ fi
 #Setting an environment var used by virtualenvwrapper
 export WORKON_HOME=~/.virtualenvs
 
-# Pimping git by using colors:
-git config --global color.branch auto
-git config --global color.diff auto
-git config --global color.interactive auto
-git config --global color.status auto
-
 # Setting vim as my default editor
 export EDITOR="vim"
 
 # Using redshift to relax the eyes
 # Location is Frankfurt am Main, Germany
-(sleep 10 && redshift -l 50.117:8.683 & disown)
+(sleep 10 && redshift -l 50.117:8.683) & 
 
