@@ -64,7 +64,7 @@ def main(path=None, linking_function=link_home_to_local):
             'Processing: %s - %s - %s' % (dirpath, dirnames, filenames))
 
         if '.git' in dirpath:
-            logger.info('Skipping git directory: %s' % (dirpath, ))
+            logger.debug('Skipping git directory: %s' % (dirpath, ))
             continue
 
         for filename in filenames:
