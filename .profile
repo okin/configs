@@ -36,3 +36,8 @@ export EDITOR="vim"
 # Location is Frankfurt am Main, Germany
 (sleep 10 && redshift -l 50.117:8.683) & 
 
+
+# network-manager // networkmanager
+# In case I forget this...
+# nm-applet
+
