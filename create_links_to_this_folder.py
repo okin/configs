@@ -1,4 +1,4 @@
-#! python
+#! /usr/bin/env python
 """
 (Un)linking files from a directory to your $HOME
 
