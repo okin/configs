@@ -44,6 +44,7 @@ servers = (
       { name = "#pyugrm"; chatnet = "FreeNode"; autojoin = "Yes"; },
       { name="#crunchbang"; chatnet="FreeNode"; autojoin="Yes"; },
       { name="#nikola"; chatnet="FreeNode"; autojoin="Yes"; },
+	{ name="#duangle"; chatnet="FreeNode"; autojoin="Yes"; },
 
       { name = "#PenguinFriends"; chatnet = "PenguinFriends"; autojoin = "no"; },
       { name = "#nik0"; chatnet = "PenguinFriends"; autojoin = "no"; },
@@ -215,7 +216,7 @@ servers = (
         };
       };
     };
-  }
+  };
 );
 chatnets = {
   FreeNode = { type = "IRC"; };
