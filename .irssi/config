@@ -13,14 +13,14 @@ servers = (
   {
     address = "irc.penguinfriends.org";
     chatnet = "PenguinFriends";
-    autoconnect = "yes";
+    autoconnect = "no";
     port = "6670";
     use_ssl = "yes";
   },
   {
     address = "irc.hackint.eu";
     chatnet = "hackint";
-    autoconnect = "no";
+    autoconnect = "yes";
   },
   {
     address = "irc.de.euirc.net";
@@ -44,11 +44,13 @@ servers = (
       { name = "#pyugrm"; chatnet = "FreeNode"; autojoin = "Yes"; },
       { name="#crunchbang"; chatnet="FreeNode"; autojoin="Yes"; },
       { name="#nikola"; chatnet="FreeNode"; autojoin="Yes"; },
+	{ name="#duangle"; chatnet="FreeNode"; autojoin="Yes"; },
 
-      { name = "#PenguinFriends"; chatnet = "PenguinFriends"; autojoin = "Yes"; },
+      { name = "#PenguinFriends"; chatnet = "PenguinFriends"; autojoin = "no"; },
       { name = "#nik0"; chatnet = "PenguinFriends"; autojoin = "no"; },
 
       { name = "#ccc-ffm"; chatnet = "hackint"; autojoin = "yes"; },
+      { name = "#chaos-darmstadt"; chatnet = "hackint"; autojoin = "yes"; },
 
       { name = "#euirc.radio"; chatnet = "euIRC"; autojoin = "yes"; }
     );
@@ -214,7 +216,7 @@ servers = (
         };
       };
     };
-  }
+  };
 );
 chatnets = {
   FreeNode = { type = "IRC"; };

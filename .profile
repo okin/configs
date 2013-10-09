@@ -27,7 +27,11 @@ if [ -f "$HOME/.dropbox-dist/dropboxd" ]; then
 fi
 
 #Setting an environment var used by virtualenvwrapper
-export WORKON_HOME=~/.virtualenvs
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/dev
+if [ -f "/usr/local/bin/virtualenvwrapper.sh" ]; then
+	source /usr/local/bin/virtualenvwrapper.sh
+fi
 
 # Setting vim as my default editor
 export EDITOR="vim"
@@ -35,4 +39,9 @@ export EDITOR="vim"
 # Using redshift to relax the eyes
 # Location is Frankfurt am Main, Germany
 (sleep 10 && redshift -l 50.117:8.683) & 
+
+
+# network-manager // networkmanager
+# In case I forget this...
+# nm-applet
 
