@@ -82,8 +82,8 @@ bindsym $mod+a focus parent
 bindsym $mod+1 workspace shell
 bindsym $mod+2 workspace c0de
 bindsym $mod+3 workspace browser
-bindsym $mod+4 workspace mail
-bindsym $mod+5 workspace vm
+bindsym $mod+4 workspace com
+bindsym $mod+5 workspace misc
 bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
@@ -94,8 +94,8 @@ bindsym $mod+0 workspace uibtime
 bindsym $mod+Shift+exclam move container to workspace shell 
 bindsym $mod+Shift+quotedbl move container to workspace c0de
 bindsym $mod+Shift+section move container to workspace browser
-bindsym $mod+Shift+dollar move container to workspace mail
-bindsym $mod+Shift+percent move container to workspace vm
+bindsym $mod+Shift+dollar move container to workspace com
+bindsym $mod+Shift+percent move container to workspace misc
 bindsym $mod+Shift+ampersand move container to workspace 6
 bindsym $mod+Shift+slash move container to workspace 7
 bindsym $mod+Shift+parenleft move container to workspace 8
