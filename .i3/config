@@ -107,6 +107,7 @@ assign [class="uibtime.exe"] uibtime
 assign [class="Wine"] uibtime
 assign [instance="^Mail$" class="^Icedove$"] com
 assign [instance="Navigator" class="Iceweasel"] browser
+assign [instance="chromium" class="Chromium"] browser
 
 # Making some things floating
 #for_window [class="net-sourceforge-jnlp-runtime-Boot"] floating enable
