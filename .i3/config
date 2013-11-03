@@ -109,9 +109,7 @@ assign [instance="^Mail$" class="^Icedove$"] com
 assign [instance="Navigator" class="Iceweasel"] browser
 assign [instance="chromium" class="Chromium"] browser
 
-# Making some things floating
-#for_window [class="net-sourceforge-jnlp-runtime-Boot"] floating enable
-#for_window [class="xfce4-notifyd"] floating enable
+# Notifications should float 
 for_window [class="Xfce4-notifyd"] floating enable; border none
 
 # Autostart
@@ -121,7 +119,6 @@ exec ~/bin/start_uibtime.sh
 exec firefox
 exec thunderbird
 exec clipit
-
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
