@@ -91,7 +91,7 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace uibtime
 
 # move focused container to workspace
-bindsym $mod+Shift+exclam move container to workspace shell 
+bindsym $mod+Shift+exclam move container to workspace shell
 bindsym $mod+Shift+quotedbl move container to workspace c0de
 bindsym $mod+Shift+section move container to workspace browser
 bindsym $mod+Shift+dollar move container to workspace com
