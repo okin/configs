@@ -21,11 +21,6 @@ if [ -d "$HOME/bin" ] ; then
     export PATH="$HOME/bin:$PATH"
 fi
 
-# Start Dropbox after logging in.
-if [ -f "$HOME/.dropbox-dist/dropboxd" ]; then
-    (sleep 10 && $HOME/.dropbox-dist/dropboxd) &
-fi
-
 #Setting an environment var used by virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/dev
@@ -35,11 +30,6 @@ fi
 
 # Setting vim as my default editor
 export EDITOR="vim"
-
-# Using redshift to relax the eyes
-# Location is Frankfurt am Main, Germany
-(sleep 10 && redshift -l 50.117:8.683) & 
-
 
 # network-manager // networkmanager
 # In case I forget this...

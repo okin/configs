@@ -113,12 +113,17 @@ assign [instance="chromium" class="Chromium"] browser
 for_window [class="Xfce4-notifyd"] floating enable; border none
 
 # Autostart
+# Restoring wallpaper
 exec nitrogen --restore
-#exec xscreensaver -no-splash # trying out i3lock
-exec ~/bin/start_uibtime.sh
-exec firefox
-exec thunderbird
+# Clipboard manager used by crunchbang
 exec clipit
+# NetworkManager applet
+exec nm-applet
+# Using redshift to relax the eyes
+# Location is Frankfurt am Main, Germany
+exec (sleep 10 && redshift -l 50.117:8.683)
+# Starting time tracker at work
+exec ~/bin/start_uibtime.sh
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
