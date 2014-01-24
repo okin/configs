@@ -111,6 +111,7 @@ assign [class="Wine"] uibtime
 assign [instance="^Mail$" class="^Icedove$"] com
 assign [instance="Navigator" class="Iceweasel"] browser
 assign [instance="chromium" class="Chromium"] browser
+assign [class="browser"] browser
 
 # Notifications should float 
 for_window [class="Xfce4-notifyd"] floating enable; border none
