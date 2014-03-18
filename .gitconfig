@@ -1,6 +1,7 @@
 [user]
 	name = Niko Wenselowski
-	email = der@nik0.de
+	email = n.wenselowski@uib.de
+	signingkey = CDD7636D
 [color]
 	branch = auto
 	diff = auto
