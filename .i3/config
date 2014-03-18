@@ -117,6 +117,8 @@ assign [class="browser"] browser
 for_window [class="Xfce4-notifyd"] floating enable; border none
 
 # Autostart
+# Compositor for real transparency
+exec (sleep 5 && cb-compositor --start)
 # Restoring wallpaper
 exec nitrogen --restore
 # Clipboard manager used by crunchbang
