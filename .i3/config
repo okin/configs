@@ -135,6 +135,10 @@ exec nm-applet
 exec (sleep 10 && redshift -l 50.117:8.683)
 # Starting time tracker at work
 exec ~/bin/start_uibtime.sh
+# Browser
+exec firefox
+# Mailclient
+exec icedove
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
