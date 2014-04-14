@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-#!/usr/bin/env python
+#! /usr/bin/env python
 #-*- coding: utf-8 -*-
 ]]></content>
     <description>Shebang and encoding for Python modules.</description>
