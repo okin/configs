@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 #! /usr/bin/env python
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 ]]></content>
     <description>Shebang and encoding for Python modules.</description>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

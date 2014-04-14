@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 ]]></content>
     <description>Insert a line with encoding</description>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
