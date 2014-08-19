@@ -114,7 +114,7 @@ assign [instance="Chromium" class="Chromium"] browser
 assign [window_role="browser"] browser
 
 # Notifications should float 
-for_window [class="Xfce4-notifyd"] floating enable; border none
+for_window [class="Xfce4-notifyd"] floating enable, border none
 
 # Autostart
 # Compositor for real transparency
