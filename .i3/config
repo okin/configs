@@ -122,6 +122,8 @@ assign [window_role="browser"] browser
 for_window [class="Xfce4-notifyd"] floating enable, border none
 
 # Autostart
+# Gnome Keyring to fix error messages everywhere.
+exec gnome-keyring-daemon --start --daemonize --replace
 # Compositor for real transparency
 exec (sleep 5 && cb-compositor --start)
 # Restoring wallpaper
