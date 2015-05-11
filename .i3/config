@@ -140,7 +140,7 @@ exec ~/bin/start_uibtime.sh
 # Browser
 exec firefox
 # Mailclient
-exec icedove
+exec thunderbird
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
