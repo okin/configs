@@ -45,6 +45,7 @@ plugins=(colorize debian git git-flow-avh gpg-agent pip python rsync systemd vir
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+export EDITOR="vim"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/dev
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH
