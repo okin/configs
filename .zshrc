@@ -37,6 +37,13 @@ COMPLETION_WAITING_DOTS="true"
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+# Need to do this before loading virtualenv plugin
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/dev
+# source /usr/local/bin/virtualenvwrapper.sh
+export PATH=/Library/Frameworks/Python.framework/Versions/3.4/bin:$PATH
+source /Library/Frameworks/Python.framework/Versions/3.4/bin/virtualenvwrapper.sh
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
