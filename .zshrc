@@ -52,7 +52,10 @@ plugins=(colorize osx git git-flow-avh pip python rsync systemd virtualenvwrappe
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+
+# umask fix for Homebrew
+# See: http://www.ikennaokpala.com/blog/using-homebrew-with-multiple-users-on-a-single-machine
+umask 0002
+
 export EDITOR="vim"
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/dev
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH
