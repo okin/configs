@@ -27,6 +27,7 @@ def make_backup(path):
 def link_home_to_local(dirpath, filename):
     source_path = os.path.join(os.path.abspath(dirpath), filename)
     path_in_home = os.path.join(os.path.expanduser('~'), dirpath, filename)
+    parent_folder = os.path.dirname(path_in_home)
 
     if os.path.exists(path_in_home):
         if os.path.islink(path_in_home):
@@ -35,6 +36,10 @@ def link_home_to_local(dirpath, filename):
             return
 
         make_backup(path_in_home)
+
+    if not os.path.exists(parent_folder):
+        logger.debug('Creating {0}'.format(parent_folder))
+        os.mkdir(parent_folder)
 
     logger.info('Linking %s to %s' % (source_path, path_in_home))
     os.symlink(source_path, path_in_home)
