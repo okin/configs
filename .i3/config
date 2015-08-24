@@ -125,7 +125,7 @@ for_window [class="Xfce4-notifyd"] floating enable, border none
 # Gnome Keyring to fix error messages everywhere.
 exec gnome-keyring-daemon --start --daemonize --replace
 # Compositor for real transparency
-exec (sleep 5 && cb-compositor --start)
+exec (sleep 5 && compton)
 # Restoring wallpaper
 exec nitrogen --restore
 # Clipboard manager used by crunchbang
