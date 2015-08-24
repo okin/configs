@@ -137,6 +137,8 @@ exec ~/bin/start_uibtime.sh
 exec firefox
 # Mailclient
 exec thunderbird
+# Filesync
+exec owncloud
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
