@@ -128,10 +128,6 @@ exec gnome-keyring-daemon --start --daemonize --replace
 exec (sleep 5 && compton)
 # Restoring wallpaper
 exec nitrogen --restore
-# Clipboard manager used by crunchbang
-exec clipit
-# NetworkManager applet
-exec nm-applet
 # Using redshift to relax the eyes
 # Location is Frankfurt am Main, Germany
 exec (sleep 10 && redshift -l 50.117:8.683)
