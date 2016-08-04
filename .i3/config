@@ -122,6 +122,10 @@ assign [window_role="browser"] browser
 
 # Notifications should float 
 for_window [class="Xfce4-notifyd"] floating enable, border none
+for_window [class="[Uu]ibtime"] floating enable, border 1px
+for_window [id="uibtime-login"] floating enable
+for_window [instance="opsi config editor Start"] floating enable, border none
+# uibtime overlay bar
 
 # Autostart
 # Gnome Keyring to fix error messages everywhere.
