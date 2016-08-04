@@ -138,7 +138,7 @@ exec nitrogen --restore
 # Location is Frankfurt am Main, Germany
 exec (sleep 10 && redshift -l 50.117:8.683)
 # Starting time tracker at work
-exec ~/bin/start_uibtime.sh
+exec (sleep 5 && uibtime)
 # Browser
 exec firefox
 # Mailclient
