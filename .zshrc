@@ -48,7 +48,7 @@ source $HOME/Library/Python/3.7/bin/virtualenvwrapper.sh
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(colorize osx git git-flow-avh pip python rsync systemd virtualenvwrapper virtualenv)
+plugins=(colorize osx git git-flow-avh golang pip python rsync systemd virtualenvwrapper virtualenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -60,3 +60,14 @@ umask 0002
 
 export EDITOR="vim"
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH
+
+# Golang stuff..
+export GOPATH=$HOME/dev/golang/playground
+export PATH=$GOPATH/bin:$PATH
+
+# pipenv
+export PATH="$PATH:/Users/niko/Library/Python/3.6/bin/"
+
+# Language
+export LANG="de_DE.UTF-8"
+export LC_ALL="de_DE.UTF-8"
