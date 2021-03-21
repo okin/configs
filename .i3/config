@@ -112,7 +112,9 @@ bindsym $mod+Shift+equal move container to workspace uibtime
 assign [class="uibtime.exe"] uibtime
 assign [class="Wine"] uibtime
 assign [instance="^Mail$" class="^Icedove$"] com
+assign [instance="^Mail$" class="^Thunderbird$"] com
 assign [instance="Navigator" class="Iceweasel"] browser
+assign [instance="Navigator" class="Firefox"] browser
 assign [instance="Chromium" class="Chromium"] browser
 assign [window_role="browser"] browser
 
