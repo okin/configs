@@ -48,4 +48,4 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR="vim"
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/dev
-export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH
+export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:$PATH

@@ -28,3 +28,5 @@ export EDITOR="vim"
 # In case I forget this...
 # nm-applet
 
+
+export PATH="$HOME/.cargo/bin:$PATH"
