@@ -1,5 +1,0 @@
-[
-    { "keys": ["ctrl+v"], "command": "paste_and_indent" },
-    { "keys": ["ctrl+shift+v"], "command": "paste" },
-    { "keys": ["shift+insert"], "command": "paste_and_indent", "args": {"clipboard": "selection"} }
-]
