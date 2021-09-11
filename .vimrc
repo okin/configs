@@ -17,3 +17,4 @@ syntax on
 
 " Anzeige der Zeilennummern
 set number
+set relativenumber
